@@ -68,3 +68,6 @@ end
 
 %interested in cat & dog classification and data, furhter check:
 %https://www.programmersought.com/article/51675333034/
+
+%the file for cat&dogs are too big, you can download it from here:
+%https://www.dropbox.com/s/tkqz1vym0slu3p6/train_dog_cat.zip?dl=0
