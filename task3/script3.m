@@ -6,6 +6,11 @@ img = imread([work_path,'bird_img.jpg']);
 figure;imshow(img);
 
 
+img1 = img;
+img1(100:200,200:300) = 255;
+figure;imshow(img1);
+
+
 
 img1 = img;
 img1 = 255 - img1;
