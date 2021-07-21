@@ -2,8 +2,12 @@ imds = imageDatastore('D:\Dropbox\work\teaching\Data_handling_workshop\task6\tra
     'IncludeSubfolders',true, ...
     'LabelSource','foldernames');
 
-numTrainImages = numel(imds.Labels);
 
+
+
+
+
+numTrainImages = numel(imds.Labels);
 
 
 [imdsTrain,imdsValidation] = splitEachLabel(imds,0.7,'randomized');
@@ -12,7 +16,6 @@ numTrainImages = numel(imds.Labels);
 
 net = alexnet;
 
-inputSize = net.Layers(1).InputSize;
 
 layersTransfer = net.Layers(1:end-3);
 
