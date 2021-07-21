@@ -2,6 +2,9 @@
 
 load('D:\Dropbox\work\teaching\Data_handling_workshop\task4\EEG.mat');
 
+figure;plot(data);
+
+
 for j = 1:length(timepoints_freq)
     epoch_freq(:,j) = data(timepoints_freq(j) - 30:timepoints_freq(j) + 150);
 end
